@@ -27,7 +27,7 @@ font-weight: 400, 500, 700
 Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
 ```
 
-### Prototiagem do projeto ( Figma )
+### Prototipagem do projeto ( Figma )
 
 ```
 https://www.figma.com/file/K5UxutHMJi8f5HlpJCsyjw/DD-RocketNews-Copy
