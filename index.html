@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>RocketNews</title>
+  </head>
+  <body>
+    <main class="flex-container">
+      <div class="flex-item">
+        <div class="logo">
+          <h1>
+            <img src="img/logo.svg" alt="RocketNews - Seu Site de Notícias" />
+          </h1>
+        </div>
+        <div class="content">
+          <p class="call">
+            atualize ideias e informações em 5 minutos. <br />
+            <span
+              >tudo que você precisa saber para começar seu dia bem e
+              informado</span
+            >
+          </p>
+          <p class="text">
+            Noticias sobre o universo Rocketseat, e tudo o que precisa para
+            começar o dia melhor. Perfeito para se preparar para codar ☕
+          </p>
+
+          <form name="form1" action="#" method="post" id="form_contato">
+            <fieldset>
+              <label for="">Insira seu e-mail:</label>
+              <div class="form-group">
+                <input
+                  id="txt_email"
+                  onfocus="this.value='';"
+                  onfocusout="this.value='Digite seu melhor E-mail';"
+                  type="text"
+                  name="email"
+                  value="Digite seu melhor e-mail"
+                />
+                <button>
+                  <img src=" img/send.svg " alt=" " />
+                </button>
+              </div>
+              <a href="#"
+                >deixe-me ler primeiro<img src="img/arrow-right.svg" alt=""
+              /></a>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <div class="flex-item bg-img"></div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
